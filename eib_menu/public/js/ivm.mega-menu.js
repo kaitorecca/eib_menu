@@ -35,7 +35,6 @@ $.loadScript('http://erp.vietan-software.com:8080/files/js/modernizr.js', functi
 
     section_data = {};
     monitor_var = {};
-    console.log("Du lieu la" + monitor_var);
     if (typeof frappe.module_links == 'undefined') frappe.module_links = {};
 
 frappe.templates["render_awesome_menu"] = '<div class="ivm-mega-menu-panel">'
@@ -190,13 +189,10 @@ frappe.templates["render_awesome_menu"] = '<div class="ivm-mega-menu-panel">'
 
 
 
-$("a.navbar-brand.navbar-home").html(frappe.render_template("awesome_logo"));
-var dsa = show_section();
-
-
 
 jQuery(document).ready(function($) {
-
+    $("a.navbar-brand.navbar-home").html(frappe.render_template("awesome_logo"));
+    var dsa = show_section();
     $("#ivm-mega-menu-items").menuAim({
         activate: function(a){
             var idx = $(a).index();
