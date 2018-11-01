@@ -1,0 +1,10 @@
+{
+    "css/eibmenu.min.css": [
+        "public/css/uikit.css",
+        "public/css/ivm.mega-menu.css"
+    ],
+    "js/eibmenu.min.js": [
+        "public/js/modernizr.js",
+        "public/js/ivm.mega-menu.js"
+    ]
+}

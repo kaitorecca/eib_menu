@@ -11,10 +11,20 @@ app_color = "grey"
 app_email = "hongtai91@gmail.com"
 app_license = "MIT"
 
-# Includes in <head>
+# Includes in <head> 
 # ------------------
+app_include_css = [
+    "/assets/eib_menu/css/ivm.mega-menu.css",
+    "/assets/eib_menu/css/uikit.css"
+]
+app_include_js = [
+    "/assets/eib_menu/js/modernizr.js",
+    "/assets/eib_menu/js/ivm.mega-menu.js"
+]
 
-# include js, css files in header of desk.html
+
+
+# include js, css files in header of desk.html 
 # app_include_css = "/assets/eib_menu/css/eib_menu.css"
 # app_include_js = "/assets/eib_menu/js/eib_menu.js"
 
