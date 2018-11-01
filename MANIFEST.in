@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eib_menu *.css
+recursive-include eib_menu *.csv
+recursive-include eib_menu *.html
+recursive-include eib_menu *.ico
+recursive-include eib_menu *.js
+recursive-include eib_menu *.json
+recursive-include eib_menu *.md
+recursive-include eib_menu *.png
+recursive-include eib_menu *.py
+recursive-include eib_menu *.svg
+recursive-include eib_menu *.txt
+recursive-exclude eib_menu *.pyc
