@@ -1,37 +1,4 @@
-// .
-// .
-// .
-// Insert header to load external library
-// .
-// .
-// .
-
-
-$('head').append('<link rel="stylesheet" type="text/css" href="http://erp.vietan-software.com:8080/files/css/ivm.mega-menu.css">');
-$('head').append('<link rel="stylesheet" type="text/css" href="http://erp.vietan-software.com:8080/files/css/uikit.css">');
-
-
-jQuery.loadScript = function (url, callback) {
-    jQuery.ajax({
-        url: url,
-        dataType: 'script',
-        success: callback,
-        async: true
-    });
-}
-
-$.loadScript('https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit.min.js', function(){
-});
-
-$.loadScript('http://erp.vietan-software.com:8080/files/js/modernizr.js', function(){
-});
-
-
-//
-//
-// Main script
-//
-//
+// Script
 
     section_data = {};
     monitor_var = {};
