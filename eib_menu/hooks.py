@@ -19,14 +19,12 @@ app_include_css = [
 ]
 app_include_js = [
     "/assets/eib_menu/js/modernizr.js",
-    "/assets/eib_menu/js/ivm.mega-menu.js"
 ]
-
 
 
 # include js, css files in header of desk.html 
 # app_include_css = "/assets/eib_menu/css/eib_menu.css"
-# app_include_js = "/assets/eib_menu/js/eib_menu.js"
+ app_include_js = "/assets/eib_menu/js/ivm.mega-menu.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/eib_menu/css/eib_menu.css"

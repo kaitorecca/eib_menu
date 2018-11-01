@@ -4,7 +4,6 @@
         "public/css/ivm.mega-menu.css"
     ],
     "js/eibmenu.min.js": [
-        "public/js/modernizr.js",
-        "public/js/ivm.mega-menu.js"
+        "public/js/modernizr.js"
     ]
 }
