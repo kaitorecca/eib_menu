@@ -1,7 +1,6 @@
 // Script
 
     section_data = {};
-    monitor_var = {};
     if (typeof frappe.module_links == 'undefined') frappe.module_links = {};
 
 frappe.templates["render_awesome_menu"] = '<div class="ivm-mega-menu-panel">'
@@ -59,7 +58,6 @@ frappe.templates["render_awesome_menu"] = '<div class="ivm-mega-menu-panel">'
 +'            <div id="ivm-mega-menu-wrapper">'
 +'                <div id="ivm-mega-menu">'
 +'                    <ul id="ivm-mega-menu-items">'
-+ get_sidebar_html()
 +'                    </ul>'
 +'                    <div id="ivm-mega-menu-panels">'
 +'                    </div>'
@@ -159,6 +157,7 @@ frappe.templates["render_awesome_menu"] = '<div class="ivm-mega-menu-panel">'
 
 jQuery(document).ready(function($) {
     $("a.navbar-brand.navbar-home").html(frappe.render_template("awesome_logo"));
+    $("#ivm-mega-menu-items").html(get_sidebar_html());
     var dsa = show_section();
     $("#ivm-mega-menu-items").menuAim({
         activate: function(a){
